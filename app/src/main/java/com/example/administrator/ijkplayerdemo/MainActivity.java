@@ -2,20 +2,15 @@ package com.example.administrator.ijkplayerdemo;
 
 import android.Manifest;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
 import com.dou361.ijkplayer.widget.AndroidMediaController;
@@ -23,16 +18,14 @@ import com.dou361.ijkplayer.widget.IRenderView;
 import com.dou361.ijkplayer.widget.IjkVideoView;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Consumer;
-import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
+/*Mainactivity，这里是dev*/
 public class MainActivity extends AppCompatActivity {
 
     private IjkVideoView ijk_video_view;
