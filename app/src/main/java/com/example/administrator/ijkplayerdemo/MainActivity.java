@@ -25,7 +25,7 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Consumer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
-/*Mainactivity，这里是dev*/
+/*Mainactivity，这里是dev，没有提交到master*/
 public class MainActivity extends AppCompatActivity {
 
     private IjkVideoView ijk_video_view;
