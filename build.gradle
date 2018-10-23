@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
+    }
+}
+
+ext {
+    compileSdkVersion = 23
+    buildToolsVersion = '23.0.3'
+
+    targetSdkVersion = 23
+    //主程序版本
+    minSdkVersion = 15
+    versionCode = 1
+    versionName = "1.0.0.01"
+    //library版本
+    jjdxm_minSdkVersion = 9
+    jjdxm_versionCode = 1
+    jjdxm_versionName = "1.0.0"
+    jjdxm_v4 = 'com.android.support:support-v4:23.3.0'
+    jjdxm_v7 = 'com.android.support:appcompat-v7:23.3.0'
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
