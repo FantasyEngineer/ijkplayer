@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
                                 .getColumnIndexOrThrow(MediaStore.Video.Media.SIZE));
             }
             cursor.close();
+            /*测试dev*/
         }
         return list;
     }
