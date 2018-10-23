@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 if (granted) {
 //                    Toast.makeText(MainActivity.this, "已获取权限", Toast.LENGTH_SHORT).show();
 //                    getList();
+
                     Toast.makeText(MainActivity.this, "权限获取到了", Toast.LENGTH_SHORT).show();
                     ijk_video_view.setVideoPath(Environment.getExternalStorageDirectory() + "/4k1.mp4");
 ////                    ijk_video_view.setVideoPath("http://mp4.vjshi.com/2017-09-19/e1920013741c5c66d408c7cdb3d9eddf.mp4");
